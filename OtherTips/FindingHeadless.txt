@@ -1,3 +1,5 @@
 sudo nmap -sP 172.31.201.0/24 | awk '/Nmap scan report for/{printf $5;}/MAC Address:/{print " => "$3;}' | sort
 
 xeon: 82:2e:99 
+
+platy: 6c:4b:90:
